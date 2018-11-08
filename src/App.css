@@ -1,0 +1,76 @@
+.User {
+  margin: 20px auto;
+  margin-bottom: 80px;
+  text-align: center;
+  box-shadow: 0 2px 3px #ccc;
+  border: 1px solid #eee;
+  color: #fff;
+  border-radius: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  background: #0363AE;
+  opacity: 0.85;
+  filter: alpha(opacity=85);
+  z-index: 1;
+}
+@media (min-width: 500px) {
+  .User {
+      width: 400px;
+  }
+}
+.center input {
+  display: block;
+  width: 100%;
+  border-radius: 4px;
+  height: 35px;
+  box-sizing: border-box;
+  border: 1px solid #fff;
+  outline: none;
+  font: inherit;
+  margin: auto;
+}
+
+.center button {
+    display: block;
+    margin: auto;
+    margin-top: 9px;
+    padding: 10px;
+    border-radius: 4px;
+    font: inherit;
+    border: 1px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+}
+
+.center button:hover,
+.center button:active {
+    color: black;
+    background-color: cyan;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  height: 100%;
+}
+
+li {
+  margin: 10px 0;
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+}
+
+NavLink {
+  color: #8f5c2c;
+  text-decoration: none;
+  width: 100%;
+  box-sizing: border-box;
+  display: block;
+}
+
